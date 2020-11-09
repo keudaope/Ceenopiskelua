@@ -1,0 +1,10 @@
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\bin\Debug\CSharpKoodit.exe.config
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\bin\Debug\CSharpKoodit.exe
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\bin\Debug\CSharpKoodit.pdb
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\obj\Debug\CSharpKoodit.csprojAssemblyReference.cache
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\obj\Debug\CSharpKoodit.Form1.resources
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\obj\Debug\CSharpKoodit.Properties.Resources.resources
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\obj\Debug\CSharpKoodit.csproj.GenerateResource.cache
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\obj\Debug\CSharpKoodit.csproj.CoreCompileInputs.cache
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\obj\Debug\CSharpKoodit.exe
+C:\Users\jyrili\Documents\repositiot\Ceenopiskelua\CSharpKoodit\CSharpKoodit\obj\Debug\CSharpKoodit.pdb
