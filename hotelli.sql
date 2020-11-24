@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 24, 2020 at 08:02 PM
+-- Generation Time: Nov 24, 2020 at 09:04 PM
 -- Server version: 10.4.16-MariaDB
 -- PHP Version: 7.4.12
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `asiakkaat` (
-  `kayttajanimi` int(15) NOT NULL,
+  `kayttajanimi` varchar(15) NOT NULL,
   `Etunimi` varchar(25) NOT NULL,
   `Sukunimi` varchar(35) NOT NULL,
   `Lahiosoite` varchar(50) NOT NULL,
@@ -43,10 +43,10 @@ CREATE TABLE `asiakkaat` (
 --
 
 INSERT INTO `asiakkaat` (`kayttajanimi`, `Etunimi`, `Sukunimi`, `Lahiosoite`, `Postinumero`, `Postitoimipaikka`, `Salasana`, `KayttajaID`) VALUES
-(1, 'Jaska', 'Parantainen', 'Velhokatu 6 a 1', '97600', 'Rovaniemi', 'xcxcRT6!2@', 1),
-(2, 'JyriPekka', 'Lindroos', 'Metsurinkatu 38', '11130', 'Riihimäki', '1Ftm2Fts!', 2),
-(3, 'Sirpa', 'Lindroos', 'Metsurinkatu 38', '11130', 'Riihimäki', 'Teittine', 3),
-(4, 'Tytti', 'Tiivanainen', 'Torikatu 23 b 34', '20100', 'Turku', 'xcxcRT6!2@', 4);
+('jasparan', 'Jaska', 'Parantainen', 'Velhokatu 6 a 1', '97600', 'Rovaniemi', 'xcxcRT6!2@', 1),
+('jlindroos', 'JyriPekka', 'Lindroos', 'Metsurinkatu 38', '11130', 'Riihimäki', '1Ftm2Fts!', 2),
+('sirlindr', 'Sirpa', 'Lindroos', 'Metsurinkatu 38', '11130', 'Riihimäki', 'Teittine', 3),
+('tyttiiva', 'Tytti', 'Tiivanainen', 'Torikatu 23 b 34', '20100', 'Turku', 'xcxcRT6!2@', 4);
 
 -- --------------------------------------------------------
 
@@ -89,7 +89,7 @@ INSERT INTO `huonekategoria` (`kategoriaId`, `Huonetyyppi`, `Hinta`) VALUES
 -- Indexes for table `asiakkaat`
 --
 ALTER TABLE `asiakkaat`
-  ADD PRIMARY KEY (`kayttajanimi`);
+  ADD PRIMARY KEY (`KayttajaID`);
 
 --
 -- Indexes for table `huoneet`
@@ -107,12 +107,6 @@ ALTER TABLE `huonekategoria`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
---
--- AUTO_INCREMENT for table `asiakkaat`
---
-ALTER TABLE `asiakkaat`
-  MODIFY `kayttajanimi` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `huonekategoria`
